@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".collapsing_toolbar.CollapsingToolbarActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#FEF1FF"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:contentScrim="#CD4BAD"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                app:title="16 Haftalik"
+                android:layout_marginTop="16dp"
+                app:collapsedTitleTextColor="@color/white"
+                app:expandedTitleTextColor="@color/teal_200">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/week16"/>
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                    app:title="" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Batafsil:"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="18sp"
+                    android:text="Farzandingizning sochlari hali ko'rinmasa ham, uning bosh terisiga naqsh solish boshlandi. Ularning oyoqlari rivojlangan, boshlari tik, quloqlari esa oxirgi holatiga yaqin."
+                    />
+
+                <TextView
+                    android:id="@+id/tv_question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Zarbalar kelyapti?"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="18sp"
+                    android:text="Tez orada siz chaqalog'ingizning harakatini his qilasiz. Ba'zi ayollar tezlashni erta sezishsa-da, ko'pchilik 18 hafta yoki undan ko'proq vaqtgacha chaqaloqning harakatini sezmaydi. (Agar bu sizning birinchi chaqalog'ingiz bo'lsa, siz 20 haftagacha yoki undan ko'proq harakatni his qilmasligingiz mumkin.) Birinchi harakatlar kichik tebranishlar, gaz pufakchalari yoki hatto popkorn paydo bo'lishi kabi bo'lishi mumkin,
+                     lekin ular kuchliroq va tez-tez o'sib boradi."
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Farzandingiz bilan gaplashing"
+                    />
+                <TextView
+                    android:id="@+id/tv_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:text="Hali yuzma-yuz suhbat qura olmasangiz ham, chaqalog'ingiz bilan gaplashish bog'lanish jarayonini boshlashning ajoyib usuli hisoblanadi. Haqiqiy suhbat sizga g'alati tuyulsa, harakatlaringiz haqida gapirib bering, ovoz chiqarib o'qing yoki farzandingiz uchun yashirin tilaklaringizni baham ko'ring."
+           />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

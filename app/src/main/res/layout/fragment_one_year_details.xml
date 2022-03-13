@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".collapsing_toolbar.CollapsingToolbarActivity"
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#FEF1FF"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            >
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginTop="16dp"
+                app:collapsedTitleTextColor="@color/white"
+                app:contentScrim="#CD4BAD"
+                app:expandedTitleTextColor="@color/teal_200"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                app:title="1 Yoshda">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/years1"
+                    />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                    app:title=""
+                    />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Batafsil:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="18sp"
+                    android:text="Kasallik ko‘pincha iste’mol qilingan suv va oziq-ovqat mahsulotlari orqali yuqishini inobatga olib issiq kunlarda bolalarning ochiq suv havzalarida cho‘milishlarini nazorat qilish, ayniqsa mevalarni qaynagan suvda yuvib berish muhim hisoblanadi."
+                    />
+
+                <TextView
+                    android:id="@+id/tv_question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Go‘dakning “jajji dorixona”sida nimalar bo‘lishi zarur?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="18sp"
+                    android:text="Asetomenofen (og‘riq qoldiruvchi suyuq dori). Bolalar uchun u paratsetamol bilan birga (isitma tushirish uchun) dorixonadan olinadi. Asosiy nomlari: Taylenol, Panadol;
+Oq oddiy leykoplastr
+Spirtli paxta tamponlari
+Antibiotikli maz;
+Dezinfeksiyalovchi suyuqlik (aptekalarda turli xili mavjud: Betadine, Hibiclens);
+Steril leykoplastr;
+Paxtali cho‘plar;
+Steril bint;
+Vodorod peroksidi;
+Muz solingan paketchalar (doim muzlatgichda tursin, bola lat yeganda shikastlangan joyga qo‘yish uchun tayyor bo‘lib turadi);
+Ipekakuana siropi (qustiradigan suyuqlik bo‘lib, bola tasodifan zaharlanganda vrach bilan maslahat qilgan holda qayt qildirish uchun qo‘llaniladi);
+Pipetka, o‘lchov qoshiqcha (dori berishda o‘lchash uchun);
+Burun tozalash uchun namokob suv (dorixonalarda mavjud – Sodium Hloride);
+Uchi o‘tkir bo‘lmagan kichik qaychi (tirnoq olish uchun);
+Kichik plastrlar;
+Termometr;
+Pinsset;
+Glitserin svechalar (bola qornida gaz yig‘ilib, ichi qotganda foydalaniladi);
+Bolalarni cho‘miltirish uchun giyohlar (masalan badanida issiqlik toshmalari bo‘lganida ittikanak – chereda bilan cho‘miltirish foyda beradi.)
+Regidron (ich buzilishida qo‘llaniladi)."
+                    />
+
+                <TextView
+                    android:id="@+id/tv_question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Bu kun ko‘pchilik onalar bola tinchligini o‘ylab pampersdan foydalanishadi…"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:text="Bolalar qisqa muddatga, (ya’ni uni poliklinikaga olib chiqqanda yoki mehmonga borganda) ortiqcha noqulayliklarning oldini olish maqsadida pampersdan foydalanish mumkin. Ayrim onalar kun davomida bolalarni pampersda qoldirishadi, bu mutlaqo noto‘g‘ri.
+
+Pampers tanlaganda albatta uning havo o‘tkazuvchanligiga alohida e’tibor qaratish lozim. Uzoq muddat pampersda yuradigan bolalarda hojatga chiqish ko‘nikmalari shakllanmay qoladi, natijada bunday bolalar maktabgacha ta’lim muassasalariga borganda qiynalishadi.
+
+Onalar o‘z farzandlarini uy sharoitida pamperssiz parvarish qilishlari hamda ularda zarur ko‘nikmalar shakllanishida yordam berishlari kerak."
+                    />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

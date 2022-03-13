@@ -58,4 +58,20 @@
         android:id="@+id/oneWeekDetailsFragment"
         android:name="mening.dasturim.babycare.main.ui.main.user.week.one.details.OneWeekDetailsFragment"
         android:label="OneWeekDetailsFragment" />
+    <fragment
+        android:id="@+id/sixtennDetailsFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.week.sixteen.details.SixtennDetailsFragment"
+        android:label="SixtennDetailsFragment" />
+    <fragment
+        android:id="@+id/thirtyTwoDeatilsFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.week.thretytwo.details.ThirtyTwoDeatilsFragment"
+        android:label="ThirtyTwoDeatilsFragment" />
+    <fragment
+        android:id="@+id/oneMonthDetailsFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.month.one.details.OneMonthDetailsFragment"
+        android:label="OneMonthDetailsFragment" />
+    <fragment
+        android:id="@+id/oneYearDetailsFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.year.one.details.OneYearDetailsFragment"
+        android:label="OneYearDetailsFragment" />
 </navigation>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".collapsing_toolbar.CollapsingToolbarActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#FEF1FF"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:contentScrim="#CD4BAD"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                app:title="36 Haftalik"
+                android:layout_marginTop="16dp"
+                app:collapsedTitleTextColor="@color/white"
+                app:expandedTitleTextColor="@color/teal_200">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/week36"/>
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                    app:title="" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Batafsil:"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="18sp"
+                    android:text="Sizning chaqalog'ingiz juda uzun va ozg'in figurani kesadi, lekin yanada to'la vaqtlar keladi. Ularning terisi hali ham nozik va shaffof, ammo bu ham tez orada o'zgara boshlaydi."/>
+
+                <TextView
+                    android:id="@+id/tv_question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Tanangizni homiladorlik uchun tayyorlang"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="18sp"
+                    android:text="Bu murakkab! Siz hali homilador emassiz, lekin bu hafta homilador bo'lsangiz, ikki haftalik homilador bo'lasiz. Buning sababi, tibbiy xizmat ko'rsatuvchi provayderlar sizning tug'ilish sanangizni aniqlash uchun oxirgi hayz davringizdan foydalanadilar, shuning uchun texnik jihatdan hayz ko'rishning birinchi kuni ham homiladorlikning birinchi kuni hisoblanadi. Tsiklingizda taxminan ikki hafta ovulyatsiya sodir bo'lganligi sababli, homiladorlik ikki haftalik homiladorlik paytida sodir bo'ladi, ya'ni homiladorlik siz homilador bo'lishingizdan oldin boshlanadi." />
+
+                <TextView
+                    android:id="@+id/tv_question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Soch va tirnoqlar"
+                    />
+                <TextView
+                    android:id="@+id/tv_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:text="Uning tirnoqlari va tirnoqlari haqiqiy sochlar (yoki hech bo'lmaganda hurmatli shaftoli tuklari) bilan birga o'sgan."
+                    />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

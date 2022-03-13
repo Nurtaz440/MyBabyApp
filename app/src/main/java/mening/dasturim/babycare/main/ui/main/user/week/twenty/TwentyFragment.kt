@@ -1,20 +1,27 @@
 package mening.dasturim.babycare.main.ui.main.user.week.twenty
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import mening.dasturim.babycare.R
+import mening.dasturim.babycare.databinding.FragmentSizteenBinding
+import mening.dasturim.babycare.databinding.FragmentTwentyBinding
+import mening.dasturim.babycare.main.ui.base.BasicFragment
+import mening.dasturim.babycare.main.ui.main.user.week.one.OneFragmentVM
 
-class TwentyFragment : Fragment() {
-
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_twenty, container, false)
+class TwentyFragment : BasicFragment<FragmentTwentyBinding, OneFragmentVM>()  {
+    override fun onBound() {
+        setUp()
     }
+
+    fun setUp(){
+        binding.floatingActionButton.setOnClickListener {
+
+            findNavController().navigate(R.id.sixtennDetailsFragment)
+        }
+    }
+    override fun getLayoutResId()=R.layout.fragment_twenty
+
+    override val vm: OneFragmentVM
+        get() = ViewModelProvider(this).get(OneFragmentVM::class.java)
+
 }

@@ -5,17 +5,28 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import mening.dasturim.babycare.R
+import mening.dasturim.babycare.databinding.FragmentOneBinding
+import mening.dasturim.babycare.databinding.FragmentSizteenBinding
+import mening.dasturim.babycare.main.ui.base.BasicFragment
+import mening.dasturim.babycare.main.ui.main.user.week.one.OneFragmentVM
 
-class SizteenFragment : Fragment() {
-
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sizteen, container, false)
+class SizteenFragment : BasicFragment<FragmentSizteenBinding, OneFragmentVM>()  {
+    override fun onBound() {
+        setUp()
     }
+
+    fun setUp(){
+        binding.floatingActionButton.setOnClickListener {
+
+            findNavController().navigate(R.id.sixtennDetailsFragment)
+        }
+    }
+    override fun getLayoutResId()=R.layout.fragment_sizteen
+
+    override val vm: OneFragmentVM
+        get() = ViewModelProvider(this).get(OneFragmentVM::class.java)
 
 }
