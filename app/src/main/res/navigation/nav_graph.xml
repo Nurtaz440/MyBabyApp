@@ -29,4 +29,33 @@
         android:name="mening.dasturim.babycare.main.ui.main.user.home.HomeTabFragment"
         android:label="fragment_home_tab"
         tools:layout="@layout/fragment_home_tab" />
+    <fragment
+        android:id="@+id/weekFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.week.WeekFragment"
+        android:label="fragment_week"
+        tools:layout="@layout/fragment_week" />
+    <fragment
+        android:id="@+id/monthFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.month.MonthFragment"
+        android:label="fragment_month"
+        tools:layout="@layout/fragment_month" />
+    <fragment
+        android:id="@+id/yearFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.year.YearFragment"
+        android:label="fragment_year"
+        tools:layout="@layout/fragment_year" />
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.week.one.OneFragment"
+        android:label="fragment_one"
+        tools:layout="@layout/fragment_one" />
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.week.two.TwoFragment"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" />
+    <fragment
+        android:id="@+id/oneWeekDetailsFragment"
+        android:name="mening.dasturim.babycare.main.ui.main.user.week.one.details.OneWeekDetailsFragment"
+        android:label="OneWeekDetailsFragment" />
 </navigation>

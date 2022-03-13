@@ -8,5 +8,22 @@
         Iltimos keyinroq qayta urinib ko\'ring.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hafta_1">1 Haftalik</string>
+    <string name="hafta_4">4 Haftalik</string>
+    <string name="oy_1">1 Oylik</string>
+    <string name="hafta_8">8 Haftalik</string>
+    <string name="hafta_12">12 Haftalik </string>
+    <string name="hafta_16">16 Haftalik </string>
+    <string name="hafta_20">20 Haftalik </string>
+    <string name="hafta_24">24 Haftalik </string>
+    <string name="hafta_28">28 Haftalik </string>
+    <string name="hafta_32">32 Haftalik </string>
+    <string name="hafta_36">36 Haftalik </string>
+    <string name="_8_oylik">8 Oylik</string>
+    <string name="_4_oylik">4 Oylik</string>
+    <string name="_10_oylik">10 Oylik</string>
+    <string name="_1_yoshda">1 Yoshda</string>
+    <string name="_2_yoshda">2 Yoshda</string>
+    <string name="_3_yoshda">3 Yoshda</string>
 
 </resources>

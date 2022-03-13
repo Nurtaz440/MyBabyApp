@@ -3,14 +3,41 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/bg_tab_rect.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/ic_baseline_lightbulb_24.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/ic_home.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/ic_home_unselected.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/nv_selected_color.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/tab_bg.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/tab_bgnotselected.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/drawable/tab_bgselected.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_chat.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_eight_month.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_eight_week.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_four_month.xml" value="0.1890625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_help.xml" value="0.203125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_home.xml" value="0.203125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_home_tab.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_month.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_one.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_one_month.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_one_week_details.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_one_year.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_sizteen.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_ten_month.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_thirty_six.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_thity_two.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_three_years.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_twelve.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_twenty.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_twenty_eight.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_twenty_four.xml" value="0.203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_two.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_two_year.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_week.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/layout/fragment_year.xml" value="0.203125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BabyCare/app/src/main/res/menu/menu_bottom.xml" value="0.203125" />
       </map>
     </option>
